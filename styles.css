@@ -1,2 +1,70 @@
 
 /* Your CSS Code here. */
+ #calculator {
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: right;
+}
+
+#input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+#numbers, #operations, #controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#numbers button, #operations button, #controls button {
+    width: 25%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+#numbers button:hover, #operations button:hover, #controls button:hover {
+    background-color: #f1f1f1;
+}
+
+#operations button {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#operations button:hover {
+    background-color: #ffb300;
+}
+
+#controls button {
+    width: 50%;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#controls button:hover {
+    background-color: #c82333;
+}
